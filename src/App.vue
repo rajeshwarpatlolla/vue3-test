@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <button @click="goToAbove()">Go To About</button>
+    <div id="teleport"></div>
   </div>
   <router-view />
 </template>
