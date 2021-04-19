@@ -2,9 +2,21 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <button @click="goToAbove()">Go To About</button>
   </div>
-  <router-view/>
+  <router-view />
 </template>
+
+<script>
+export default {
+  setup() {},
+  methods: {
+    goToAbove() {
+      this.$router.push('/about');
+    },
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

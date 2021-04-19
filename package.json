@@ -68,5 +68,10 @@
     "transform": {
       "^.+\\.vue$": "vue-jest"
     }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
   }
 }
